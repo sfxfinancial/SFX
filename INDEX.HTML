@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFX Financial Group | Smart Investment Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .sfx-gradient { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); }
+        .card-hover:hover { transform: translateY(-10px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-slate-200">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-blue-700 rounded-full flex items-center justify-center text-white font-bold text-xl italic">SFX</div>
+                <h1 class="text-xl font-bold tracking-tight text-slate-800 uppercase">SFX <span class="text-blue-600">Financial Group</span></h1>
+            </div>
+            <div class="hidden md:flex space-x-8 font-semibold text-sm uppercase tracking-wider">
+                <a href="#home" class="hover:text-blue-600 transition">Home</a>
+                <a href="#services" class="hover:text-blue-600 transition">Services</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="sfx-gradient text-white py-24 px-6 relative overflow-hidden">
+        <div class="container mx-auto text-center relative z-10">
+            <span class="bg-blue-500/20 text-blue-300 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-6 inline-block border border-blue-500/30">SFX FINANCIAL GROUP</span>
+            <h2 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">Smart Investment.<br><span class="text-blue-400">Strong Future.</span></h2>
+            <p class="text-lg md:text-xl mb-10 text-slate-300 max-w-2xl mx-auto">Risk Control + Consistent Growth + Long-Term Wealth Creation. Hum banate hain aapke kal ko behtar.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#services" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-xl shadow-xl transition-all">Explore Services</a>
+                <a href="#contact" class="bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white font-bold py-4 px-10 rounded-xl transition-all">Get in Touch</a>
+            </div>
+        </div>
+        <div class="absolute -top-24 -right-24 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl"></div>
+    </section>
+
+    <section id="services" class="py-24 bg-white px-6">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold text-slate-900 mb-4">Our Premium Services</h3>
+                <div class="w-20 h-1.5 bg-blue-600 mx-auto rounded-full"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="p-8 rounded-2xl border border-slate-100 bg-slate-50 card-hover shadow-sm">
+                    <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center text-2xl mb-6"><i class="fas fa-chart-line"></i></div>
+                    <h4 class="text-xl font-bold mb-3">Stock Market</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">Equity, Intraday, Swing Trading, aur Algo Based support ke saath consistent growth.</p>
+                    <span class="text-xs font-bold text-blue-700 uppercase">Goal: High Growth</span>
+                </div>
+
+                <div class="p-8 rounded-2xl border border-slate-100 bg-slate-50 card-hover shadow-sm">
+                    <div class="w-14 h-14 bg-orange-100 text-orange-600 rounded-lg flex items-center justify-center text-2xl mb-6"><i class="fab fa-bitcoin"></i></div>
+                    <h4 class="text-xl font-bold mb-3">Crypto Assets</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">Top Digital Assets selection aur long-term holding strategies market analysis ke saath.</p>
+                    <span class="text-xs font-bold text-orange-700 uppercase">Goal: Future Assets</span>
+                </div>
+
+                <div class="p-8 rounded-2xl border border-slate-100 bg-slate-50 card-hover shadow-sm">
+                    <div class="w-14 h-14 bg-red-100 text-red-600 rounded-lg flex items-center justify-center text-2xl mb-6"><i class="fas fa-shield-halved"></i></div>
+                    <h4 class="text-xl font-bold mb-3">Insurance</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">Life, Health aur Motor Insurance. Aapki family ki complete financial security hamari zimmedari.</p>
+                    <span class="text-xs font-bold text-red-700 uppercase">Goal: Full Protection</span>
+                </div>
+
+                <div class="p-8 rounded-2xl border border-slate-100 bg-slate-50 card-hover shadow-sm">
+                    <div class="w-14 h-14 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center text-2xl mb-6"><i class="fas fa-vault"></i></div>
+                    <h4 class="text-xl font-bold mb-3">Mutual Funds</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">SIP Planning, ETF Investment aur Flexi Cap funds ke saath wealth compounding.</p>
+                    <span class="text-xs font-bold text-indigo-700 uppercase">Goal: Stable Growth</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 px-6 bg-slate-900 text-white">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h3 class="text-4xl font-bold mb-8 text-white">Let's Secure Your Future</h3>
+            <p class="text-slate-400 mb-12 text-lg">Humein email karein aur apni financial journey shuru karein.</p>
+            
+            <div class="bg-white/5 border border-white/10 p-10 rounded-3xl backdrop-blur-sm">
+                <div class="flex flex-col items-center gap-4">
+                    <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-2xl mb-2">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold uppercase tracking-tight">Official Email</h4>
+                    <a href="mailto:sfxfinancial@gmail.com" class="text-3xl font-light text-blue-400 hover:text-blue-300 transition break-all">sfxfinancial@gmail.com</a>
+                </div>
+            </div>
+            
+            <p class="mt-12 text-sm text-slate-500 uppercase tracking-widest italic">“Har Client ka Paisa Safe rahe aur Smart tareeke se Grow ho.”</p>
+        </div>
+    </section>
+
+    <footer class="bg-black py-8 text-center border-t border-white/5">
+        <p class="text-slate-600 text-xs">© 2026 SFX Financial Group. All Rights Reserved. Investment is subject to market risks.</p>
+    </footer>
+
+</body>
+</html>
